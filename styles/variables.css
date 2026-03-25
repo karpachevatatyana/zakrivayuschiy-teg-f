@@ -1,44 +1,47 @@
 :root {
-    --main-font: "Inter", sans-serif;
-    --accent-font: "PressStart2P", monospace;
+  --main-font: "Inter", sans-serif;
+  --accent-font: "PressStart2P", monospace;
 
-    --main-text-weight: 410;
-    --title-weight: 715;
+  --main-text-weight: 410;
+  --title-weight: 715;
 
-    --accent-color: #000000;
-    --contour-color: #000000;
-    --animation-fill-color: #ff0000;
-    --animation-hover-color: #000000;
-    --label-stroke-color: #ffffff;
-    --button-text-color: #ffffff;
-    --bg-color: #ffffff;
-    --text-color: #000000;
-    --border-color: #000000;
+  --accent-color: #000000;
+  --contour-color: #000000;
+  --animation-fill-color: #ff0000;
+  --animation-hover-color: #000000;
+  --label-stroke-color: #ffffff;
+  --button-text-color: #ffffff;
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --border-color: #000000;
 
-    --header-margin-top: 100px;
-    --cards-margin-top: 98px;
-    --cards-margin-bottom: 50px;
+  --header-margin-top: 100px;
+  --cards-margin-top: 95px;
+  --cards-margin-bottom: 50px;
 
-    --border: 2px solid var(--border-color);
+  --border: 2px solid var(--border-color);
 
-    --background-gradient: repeating-linear-gradient(90deg,
-            #d3d3d3 0 2px,
-            transparent 2px 4px),
-        repeating-linear-gradient(0deg, #d3d3d3 0 2px, transparent 2px 4px),
-        linear-gradient(180deg, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
+  --background-gradient: repeating-linear-gradient(
+      90deg,
+      #d3d3d3 0 2px,
+      transparent 2px 4px
+    ),
+    repeating-linear-gradient(0deg, #d3d3d3 0 2px, transparent 2px 4px),
+    linear-gradient(180deg, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
 
-    --content-width: clamp(375px, 100%, 700px);
+  --content-width: clamp(375px, 100%, 700px);
 
-    --header-padding: clamp(20px, 5vw, 40px);
+  --header-padding: clamp(20px, 5vw, 40px);
 
-    --logo-font-size: clamp(49px, 8vw, 65px);
+  --logo-font-size: clamp(49px, 8vw, 65px);
 
-    --title-font-size: clamp(14px, 3vw, 23px);
+  --title-font-size: clamp(14px, 3vw, 23px);
 
-    --logo-title-gap: clamp(10px, 2vw, 10px);
+  --logo-title-gap: clamp(10px, 2vw, 10px);
 
-    --card-gap: 52px;
+  --card-gap: 50px;
 
-    --shadow-offset: 2px;
-    --button-shadow: var(--shadow-offset) var(--shadow-offset) 0 0 var(--accent-color);
+  --shadow-offset: 2px;
+  --button-shadow: var(--shadow-offset) var(--shadow-offset) 0 0
+    var(--accent-color);
 }
